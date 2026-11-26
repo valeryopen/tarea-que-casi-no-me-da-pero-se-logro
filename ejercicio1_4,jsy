@@ -1,0 +1,11 @@
+let precio = "350";
+
+console.log("Precio original:", precio);
+
+let numero = Number(precio) + 100;
+
+console.log("Precio aumentado:", numero);
+
+let resultado = String(numero) + " pesos colombianos";
+
+console.log(resultado);
