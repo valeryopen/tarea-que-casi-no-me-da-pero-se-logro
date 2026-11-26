@@ -1,0 +1,16 @@
+let contador = 10;
+
+console.log("Valor inicial:", contador);
+
+console.log("Post incremento:", contador++);
+console.log("Valor actual:", contador);
+
+console.log("Pre incremento:", ++contador);
+
+console.log("Post decremento:", contador--);
+console.log("Valor actual:", contador);
+
+console.log("Pre decremento:", --contador);
+
+// Prefijo: cambia el valor antes de mostrarlo.
+// Sufijo: muestra el valor y después lo cambia.
