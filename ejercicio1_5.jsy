@@ -1,0 +1,14 @@
+let x = 10;
+
+{
+    let y = 20;
+
+    console.log("Valor de y:", y);
+}
+
+console.log("Valor de x:", x);
+
+// La variable y no se puede utilizar fuera del bloque
+// porque fue declarada con let dentro de las llaves.
+
+// console.log(y); // Generaría un error.
