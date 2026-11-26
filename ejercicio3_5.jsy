@@ -1,0 +1,5 @@
+let csv = "manzana,pera,uva,mango,banano";
+let frutas = csv.split(",");
+
+console.log(frutas.length);     // 5
+console.log(frutas.join("-"));  // manzana-pera-uva-mango-banano
