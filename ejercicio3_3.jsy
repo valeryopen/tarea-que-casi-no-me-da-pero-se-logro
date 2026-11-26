@@ -1,0 +1,5 @@
+let email = "usuario@dominio.com";
+
+console.log(email.includes("@"));          // true
+console.log(email.indexOf("dominio"));      // 8
+console.log(email.endsWith(".com"));        // true
