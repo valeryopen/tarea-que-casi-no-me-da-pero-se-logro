@@ -1,5 +1,4 @@
-let email = "usuario@dominio.com";
+let texto = "JavaScript es difícil";
 
-console.log(email.includes("@"));          // true
-console.log(email.indexOf("dominio"));      // 8
-console.log(email.endsWith(".com"));        // true
+console.log(texto.slice(14)); // difícil
+console.log(texto.replace("difícil", "poderoso"));
